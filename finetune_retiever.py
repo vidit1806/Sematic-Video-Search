@@ -24,7 +24,7 @@ def main():
     Loads a pre-trained sentence transformer, fine-tunes it on our user feedback data,
     and saves the improved model to a new directory.
     """
-    print("--- Starting Retriever Model Fine-Tuning ---")
+    print("Starting Retriever Model Fine-Tuning")
     
     # 1. Load the pre-trained model we want to fine-tune
     print(f"1) Loading base model: '{BASE_MODEL_NAME}'...")
@@ -32,7 +32,7 @@ def main():
 
     # 2. Load our custom training dataset
     if not os.path.exists(TRAINING_DATA_PATH):
-        print(f"❌ Error: Training data file not found at '{TRAINING_DATA_PATH}'.")
+        print(f"Error: Training data file not found at '{TRAINING_DATA_PATH}'.")
         print("   Please run 'prepare_finetune_data.py' first.")
         return
         
