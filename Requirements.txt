@@ -1,0 +1,3 @@
+pip install pandas numpy scikit-learn matplotlib tqdm nltk spacy sentence-transformers transformers rapidfuzz rank-bm25 faiss-cpu torch torchvision streamlit python-dotenv pyyaml openai google-generativeai
+python -m spacy download en_core_web_sm
+python -m nltk.downloader punkt 

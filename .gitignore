@@ -1,0 +1,5 @@
+*.npy
+__pycache__/
+feedback_log.jsonl
+video_metadata.csv.xlsx
+Transcripts
