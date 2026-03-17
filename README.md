@@ -1,4 +1,4 @@
-# 🎥 Semantic Video Transcript Retrieval System
+# 🎥 Keyword Indexing of subtitled videos
 
 A high-performance hybrid search system that helps users find specific moments within video lectures by understanding the **meaning** behind their questions — not just matching keywords.
 
